@@ -2,7 +2,7 @@ package day6;
 
 public class Task1 {
     public static void main(String[] args) {
-        Car car = new Car(" Mersedes Maybach", "Чёрный", 2020);
+        Car car = new Car(" Mersedes Maybach", "Чёрный", 2032);
         Motorbike motorbike = new Motorbike(" Harley Davidson", "Синий", 2019);
 
         car.info();

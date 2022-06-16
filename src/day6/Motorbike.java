@@ -28,6 +28,8 @@ public class Motorbike {
     }
 
     public int yearDifference(int year) {
+        if (inputYear > year)
+            System.out.println("error");
         return year - inputYear;
     }
 }

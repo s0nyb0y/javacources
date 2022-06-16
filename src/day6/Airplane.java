@@ -6,8 +6,8 @@ public class Airplane {
     private int length;
     private int weight;
     private int fuel;
-    public int fillUp(int n) {
-        return fuel += n;
+    public void fillUp(int n) {
+        fuel += n;
     }
     public Airplane(String manufacturer, int year, int length, int weight, int fuel) {
         this.manufacturer = manufacturer;

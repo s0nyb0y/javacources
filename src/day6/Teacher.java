@@ -10,11 +10,12 @@ public class Teacher {
         this.fio = fio;
         this.subject = subject;
     }
-    public void evolute(Student student){
+
+    public void evolute(Student student) {
         Random random = new Random();
-        int randomValue = random.nextInt(4)+2;
+        int randomValue = random.nextInt(4) + 2;
         String evolution = "";
-        switch (randomValue){
+        switch (randomValue) {
             case 2:
                 evolution = "неудовлетворительно";
                 break;
@@ -24,10 +25,10 @@ public class Teacher {
             case 4:
                 evolution = "хорошо";
                 break;
-            case 5:
+            default:
                 evolution = "отлично";
         }
-        System.out.println("Преподаватель "+this.fio+" оценил студента с именем "+student.getFio()+" по предмету "+subject+
-                " на оценку "+evolution);
+        System.out.println("Преподаватель " + this.fio + " оценил студента с именем " + student.getFio() + " по предмету " + subject +
+                " на оценку " + evolution);
     }
 }
