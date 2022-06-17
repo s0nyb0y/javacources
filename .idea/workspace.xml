@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23f5026-2292-4651-8904-c83fb0d548fe" name="Changes" comment="add day 9">
+    <list default="true" id="b23f5026-2292-4651-8904-c83fb0d548fe" name="Changes" comment="add day 6 правки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/Airplane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day6/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6/Motorbike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/Motorbike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/a7906/IdeaProjects/javacources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/a7906/IdeaProjects/javacources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="day8" />
@@ -52,7 +48,7 @@
       <recent name="day6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task3">
+  <component name="RunManager" selected="Application.day6.Task1">
     <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day6.Task3" />
       <module name="javacources" />
@@ -133,9 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task3" />
         <item itemvalue="Application.day6.Task1" />
-        <item itemvalue="Application.day9.task2.TestFigures" />
+        <item itemvalue="Application.Task3" />
         <item itemvalue="Application.day9.Task2" />
         <item itemvalue="Application.day9.task1.Task1" />
       </list>
@@ -192,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655386223660</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add day 6 правки">
+      <created>1655395894483</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655395894483</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +215,7 @@
     <MESSAGE value="add day 7" />
     <MESSAGE value="add day 8" />
     <MESSAGE value="add day 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="add day 9" />
+    <MESSAGE value="add day 6 правки" />
+    <option name="LAST_COMMIT_MESSAGE" value="add day 6 правки" />
   </component>
 </project>
