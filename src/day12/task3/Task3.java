@@ -17,17 +17,22 @@ public class Task3 {
         list.add(new MusicBand("One Direction", 2010));
         list.add(new MusicBand("Radio head", 1985));
         list.add(new MusicBand("Foo Fighters", 1994));
-        System.out.println(list);
+//        System.out.println(list);
         Collections.shuffle(list);
+//        MusicBand.groupsAfter2000(list);
 
-        List<MusicBand> after2000 = new ArrayList<>();
-        for (MusicBand band : list) {
-            if (band.getYear() > 2000) {
-                after2000.add(band);
-            }
-        }
-        System.out.println(list);
-        System.out.println();
-        System.out.println("Группы созданные после 2000: " + after2000);
+//        List<MusicBand> after2000 = new ArrayList<>();
+//        for (MusicBand band : list) {
+//            if (band.getYear() > 2000) {
+//                after2000.add(band);
+//            }
+//        }
+//        System.out.println(list);
+//        System.out.println();
+//        System.out.println("Группы созданные после 2000: " + after2000);
+//
+//   }
+        MusicBand.groupsAfter2000(list);
+
     }
 }
