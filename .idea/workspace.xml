@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23f5026-2292-4651-8904-c83fb0d548fe" name="Changes" comment="add day 13.">
-      <change afterPath="$PROJECT_DIR$/src/day14/Task1.java" afterDir="false" />
+    <list default="true" id="b23f5026-2292-4651-8904-c83fb0d548fe" name="Changes" comment="add day 12 дополнения">
+      <change afterPath="$PROJECT_DIR$/people.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12/task3/MusicBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day12/task3/MusicBand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12/task3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day12/task3/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,26 +55,13 @@
       <recent name="day6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task3">
+  <component name="RunManager" selected="Application.day14.Task3">
     <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day13.Task" />
       <module name="javacources" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day14.Task1" />
-      <module name="javacources" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day13.Test" />
+    <configuration name="day14.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14.Task1" />
       <module name="javacources" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13.*" />
+          <option name="PATTERN" value="day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day13.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day13.Task1" />
+    <configuration name="day14.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14.Task2" />
       <module name="javacources" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13.*" />
+          <option name="PATTERN" value="day14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day14.Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14.Task3" />
+      <module name="javacources" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.day14.Task3" />
+        <item itemvalue="Application.day14.Task1" />
+        <item itemvalue="Application.day14.Task2" />
         <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Task" />
-        <item itemvalue="Application.day13.Task1" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656180358970</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add day 12 дополнения">
+      <created>1656426274275</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656426274275</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +270,7 @@
     <MESSAGE value="add day 12" />
     <MESSAGE value="add day 13" />
     <MESSAGE value="add day 13." />
-    <option name="LAST_COMMIT_MESSAGE" value="add day 13." />
+    <MESSAGE value="add day 12 дополнения" />
+    <option name="LAST_COMMIT_MESSAGE" value="add day 12 дополнения" />
   </component>
 </project>
