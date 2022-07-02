@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23f5026-2292-4651-8904-c83fb0d548fe" name="Changes" comment="add day 12 дополнения">
-      <change afterPath="$PROJECT_DIR$/people.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+    <list default="true" id="b23f5026-2292-4651-8904-c83fb0d548fe" name="Changes" comment="add day 14">
+      <change afterPath="$PROJECT_DIR$/missing_shoes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15/Shoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14/task3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/task3/Task3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/a7906/IdeaProjects/JavaMarathon2021&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/a7906/IdeaProjects/javacources&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -55,13 +53,13 @@
       <recent name="day6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.day14.Task3">
+  <component name="RunManager" selected="Application.day15.Task">
     <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day13.Task" />
+      <option name="MAIN_CLASS_NAME" value="test.Task" />
       <module name="javacources" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day12.task3.Task3" />
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14.task1.Task1" />
       <module name="javacources" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12.task3.*" />
+          <option name="PATTERN" value="day14.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day14.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day14.Task1" />
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day4.Task2" />
       <module name="javacources" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.*" />
+          <option name="PATTERN" value="day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day14.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day14.Task2" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day15.Test" />
       <module name="javacources" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.*" />
+          <option name="PATTERN" value="day15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day14.Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day14.Task3" />
+    <configuration name="day15.Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day15.Task" />
       <module name="javacources" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.*" />
+          <option name="PATTERN" value="day15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.day14.Task3" />
-        <item itemvalue="Application.day14.Task1" />
-        <item itemvalue="Application.day14.Task2" />
-        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.day15.Task" />
         <item itemvalue="Application.Task" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
   </component>
