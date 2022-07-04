@@ -8,13 +8,12 @@ import java.util.Scanner;
 
 public class Task2 {
     public static void main(String[] args) throws FileNotFoundException, InterruptedException {
-        File fileOut1 = new File("file1.txt");
-        PrintWriter pw1 = new PrintWriter(fileOut1);
+        File fileOut = new File("file1.txt");
         Random random = new Random();
+        PrintWriter pw1 = new PrintWriter(fileOut);
         for (int i = 0; i < 1000; i++) {
-            pw1.println(random.nextInt(100));
+            pw1.println(random.nextInt(100) + 1);
         }
-        pw1.println();
         pw1.close();
 
         File file = new File("file1.txt");
@@ -26,26 +25,28 @@ public class Task2 {
         while (scanner.hasNextInt()) {
             sum += scanner.nextInt();
             counter++;
+
             if (counter == 20) {
-                pw2.println(sum / 20.0);
+                pw2.print(sum / 20.0 + " ");
                 counter = 0;
                 sum = 0;
             }
         }
         pw2.close();
-        scanner.close();
         printResult(fileOut2);
     }
 
     public static void printResult(File file) {
         try {
-            Scanner scanner = new Scanner(file);
-            double sum = 0;
-            while (scanner.hasNextDouble()) {
-                sum += scanner.nextDouble();
+            double res = 0;
+            Scanner scanner2 = new Scanner(file);
+            String line = scanner2.nextLine();
+            String[] num = line.split(" ");
+            for (String number:num) {
+                res+=Double.parseDouble(number);
             }
-            System.out.println((int) sum);
-            scanner.close();
+            System.out.println((int) res);
+            scanner2.close();
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден");
         }
