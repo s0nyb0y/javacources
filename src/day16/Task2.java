@@ -34,17 +34,17 @@ public class Task2 {
         }
         pw2.close();
         scanner.close();
-        printResult(fileOut1);
+        printResult(fileOut2);
     }
 
     public static void printResult(File file) {
         try {
             Scanner scanner = new Scanner(file);
-            int sum = 0;
-            while (scanner.hasNextInt()) {
-                sum += scanner.nextInt();
+            double sum = 0;
+            while (scanner.hasNextDouble()) {
+                sum += scanner.nextDouble();
             }
-            System.out.println(sum);
+            System.out.println((int) sum);
             scanner.close();
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден");

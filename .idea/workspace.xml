@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23f5026-2292-4651-8904-c83fb0d548fe" name="Changes" comment="add day 15">
-      <change afterPath="$PROJECT_DIR$/src/day16/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day16/Task2.java" afterDir="false" />
+    <list default="true" id="b23f5026-2292-4651-8904-c83fb0d548fe" name="Changes" comment="add day 16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day14/task3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/task3/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day16/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day16/Task2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day11.task2.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day11.task2.Task2" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
       <module name="javacources" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.task2.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.day16.Task1" />
         <item itemvalue="Application.Task4" />
         <item itemvalue="Application.Task5" />
-        <item itemvalue="Application.day11.task2.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656761475392</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add day 16">
+      <created>1656927334074</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1656927334074</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +282,7 @@
     <MESSAGE value="add day 13." />
     <MESSAGE value="add day 12 дополнения" />
     <MESSAGE value="add day 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="add day 15" />
+    <MESSAGE value="add day 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="add day 16" />
   </component>
 </project>
