@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23f5026-2292-4651-8904-c83fb0d548fe" name="Changes" comment="add day 16 правки">
+    <list default="true" id="b23f5026-2292-4651-8904-c83fb0d548fe" name="Changes" comment="add day 16 task2 правки.">
+      <change afterPath="$PROJECT_DIR$/src/day17/task1/ChessPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17/task1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17/task2/ChessBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17/task2/ChessPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day17/task2/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day16/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day16/Task2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -44,20 +49,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day17.task2" />
       <recent name="day12.task5" />
       <recent name="day12.task4" />
       <recent name="day8" />
       <recent name="day7" />
-      <recent name="day6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task2">
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day16.Task2" />
+  <component name="RunManager" selected="Application.day17.task2.Task2">
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day17.Task1" />
       <module name="javacources" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day16.*" />
+          <option name="PATTERN" value="day17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,25 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day4.Task4" />
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day4.Task3" />
       <module name="javacources" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1.Task5" />
-      <module name="javacources" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day16.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day16.Task1" />
+    <configuration name="day17.task1.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day17.task1.Task1" />
       <module name="javacources" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day16.*" />
+          <option name="PATTERN" value="day17.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day17.task2.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day17.task2.Task2" />
+      <module name="javacources" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day17.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.day17.task2.Task2" />
+        <item itemvalue="Application.day17.task1.Task1" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.day16.Task1" />
-        <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Task5" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656935856938</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add day 16 task2 правки.">
+      <created>1656944415736</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656944415736</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +303,7 @@
     <MESSAGE value="add day 15" />
     <MESSAGE value="add day 16" />
     <MESSAGE value="add day 16 правки" />
-    <option name="LAST_COMMIT_MESSAGE" value="add day 16 правки" />
+    <MESSAGE value="add day 16 task2 правки." />
+    <option name="LAST_COMMIT_MESSAGE" value="add day 16 task2 правки." />
   </component>
 </project>
