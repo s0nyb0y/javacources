@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23f5026-2292-4651-8904-c83fb0d548fe" name="Changes" comment="add day 16 task2 правки.">
-      <change afterPath="$PROJECT_DIR$/src/day17/task1/ChessPiece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day17/task1/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day17/task2/ChessBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day17/task2/ChessPiece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day17/task2/Task2.java" afterDir="false" />
+    <list default="true" id="b23f5026-2292-4651-8904-c83fb0d548fe" name="Changes" comment="add day 17">
+      <change afterPath="$PROJECT_DIR$/src/day18/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day17/task2/ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day17/task2/ChessBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day17/task2/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day17/task2/ChessPiece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,9 +137,9 @@
       <list>
         <item itemvalue="Application.day17.task2.Task2" />
         <item itemvalue="Application.day17.task1.Task1" />
-        <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656944415736</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add day 17">
+      <created>1657205137023</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1657205137023</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,6 +309,7 @@
     <MESSAGE value="add day 16" />
     <MESSAGE value="add day 16 правки" />
     <MESSAGE value="add day 16 task2 правки." />
-    <option name="LAST_COMMIT_MESSAGE" value="add day 16 task2 правки." />
+    <MESSAGE value="add day 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="add day 17" />
   </component>
 </project>

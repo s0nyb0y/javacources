@@ -13,5 +13,6 @@ public class Task2 {
                 {ChessPiece.EMPTY, ChessPiece.EMPTY, ChessPiece.EMPTY, ChessPiece.EMPTY, ChessPiece.EMPTY, ChessPiece.ROOK_WHITE, ChessPiece.KING_WHITE, ChessPiece.EMPTY}
         });
         chessBoard.print();
+        System.out.println("_" + "_");
     }
 }

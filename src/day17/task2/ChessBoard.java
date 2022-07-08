@@ -10,7 +10,7 @@ public class ChessBoard {
     public void print() {
         for (int i = 0; i < chessBord.length; i++) {
             for (int j = 0; j < chessBord.length; j++) {
-                System.out.print(chessBord[i][j]);
+                System.out.print(chessBord[i][j].getFigures());
             }
             System.out.println();
         }
