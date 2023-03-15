@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class Battlefield {
     private final ShipFigure[][] field;
     private final ShipFigure[][] monitor;
-    Map<Integer, Integer> ships;
     public static boolean winner = true;
 
     public ShipFigure[][] getField() {
@@ -21,7 +20,8 @@ public class Battlefield {
     public Battlefield(Player player) {
         this.field = new ShipFigure[10][10];
         this.monitor = new ShipFigure[10][10];
-        this.ships = new LinkedHashMap<>();
+
+        Map<Integer, Integer> ships = new LinkedHashMap<>();
 
         System.out.println("  0 1 2 3 4 5 6 7 8 9");
         for (int i = 0; i < field.length; i++) {
@@ -67,9 +67,7 @@ public class Battlefield {
                     y = scanner.nextInt();
                 }
 
-                System.out.println("выбери направление корабля: ");
-                System.out.println("Горизонтальное направление, цифра - 1");
-                System.out.println("Вертикальное направление, цифра - 2");
+                System.out.println("выбери направление корабля: \nГоризонтальное направление, цифра - 1\nВертикальное направление, цифра - 2");
                 int direction = scanner.nextInt();
 
                 if (!isAvailable(x, y, deck, direction, field)) {
@@ -105,9 +103,7 @@ public class Battlefield {
     public boolean isAvailable(int x, int y, int deck, int direction, ShipFigure[][] field) {
         while (direction < 1 || direction > 2) {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("не корректное значение");
-            System.out.println("Горизонтальное направление, цифра - 1");
-            System.out.println("Вертикальное направление, цифра - 2");
+            System.out.println("не корректное значение\nГоризонтальное направление, цифра - 1\nВертикальное направление, цифра - 2");
             direction = scanner.nextInt();
         }
 
