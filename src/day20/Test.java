@@ -10,11 +10,11 @@ public class Test {
 
         while (true) {
             battlefield1.makeTurn(player1, battlefield1.getMonitor(), battlefield2.getField());
-            if (!battlefield1.winner) {
+            if (!Battlefield.winner) {
                 break;
             }
             battlefield2.makeTurn(player2, battlefield2.getMonitor(), battlefield1.getField());
-            if (!battlefield2.winner) {
+            if (!Battlefield.winner) {
                 break;
             }
         }

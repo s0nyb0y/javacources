@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Battlefield {
     private final ShipsFigure[][] field;
     private final ShipsFigure[][] monitor;
-    public boolean winner = true;
+    public static boolean winner = true;
 
     public Battlefield(Player player) {
         this.field = new ShipsFigure[10][10];
